@@ -1,15 +1,17 @@
 [credential "https://github.com"]
-        helper =
-        helper = !/usr/bin/gh auth git-credential
+	helper =
+	helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
-        helper =
-        helper = !/usr/bin/gh auth git-credential
+	helper =
+	helper = !/usr/bin/gh auth git-credential
 
 [user]
-        signingkey = 07944BC5E01E7B43
-        name = Okinea Dev
-        email = hi@okinea.dev
+	signingkey = 07944BC5E01E7B43
+	name = Okinea Dev
+	email = hi@okinea.dev
 [gpg]
-        program = gpg
+	program = gpg
 [commit]
-        gpgsign = true
+	gpgsign = true
+[init]
+	defaultBranch = main
